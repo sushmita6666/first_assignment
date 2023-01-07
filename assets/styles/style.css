@@ -12,11 +12,17 @@
     border-radius: 5px;
     background: #FFFFFF;
 }
+li{
+    list-style: none;
+}
+section{
+    margin-top: 130px;
+}
+
 /* header section start */
 header{
     background: url("../images/banner/banner3.png");
     background-size: cover;
-
 }
 .banner{
     max-width: 35%;
@@ -35,17 +41,196 @@ header{
     margin-top: 24px;
     margin-bottom: 40px;
 }
-
 /* header section end */
 
+/* main section start */
+main{
+    max-width: 1072px;
+    margin: 0 auto;
+}
 /* my failure section start */
+.my-failure{
+    display: flex;
+    gap: 84px;
+    align-items: center;
+}
+.failure-detail .title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.failure-detail .description{
+    color: #444343;
+    margin-bottom: 25px;
+}
+.failure-detail li>i{
+    color: green;
+    padding-right: 5px;
+}
+.failure-detail li{
+    color: #444343;
+    margin-bottom: 10px;
+}
 /* my failure section end */
 
 /* my plan section start */
+.my-plan .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    gap: 20px;
+
+}
+.plan{
+    padding: 25px;
+    text-align:center;
+}
+.plan .title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan .description{
+    color:#444343;
+}
 /* my plan section end */
 
+/* i want section start  */
+.i-want .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.i-want .section-title .title-part{
+    color:#005FAC;
+}
+.i-want>p{
+    color:#444343;
+    text-align: center;
+    margin: 40px 0px 60px;
+}
+.want-container{
+    display: flex;
+    gap: 20px;
+}
+.want{
+    border:0;
+    border-radius: 8px;
+    padding: 50px 30px;
+    box-shadow: 5px 3px 10px rgba(0, 95, 172,0.7);
+}
+.want .want-icon{
+    font-size: 80px;
+    color: white;
+    height: 130px;
+    width: 130px;
+    background: #005FAC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+}
+.want-detail .title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+}
+.want-detail .description{
+    color: #444343;
+}
+/* i want section end   */
+
 /* positive mind section start */
+.positive{
+    padding-top: 59px;
+    padding-bottom: 59px;
+    background: linear-gradient(to right, rgba(0, 95, 173,1),rgba(0, 95, 173,0)),url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.positive-detail{
+    width: 50%;
+    margin-left: 64px;
+}
+.positive-detail .title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
 /* positive mind section end */
+/* main section end */
 
 /* footer section start */
+.footer-section{
+    display: flex;
+    gap:100px;
+    background: #151414;
+    color: #FFFFFF;
+    padding: 130px 200px;
+}
+.footer-section .title{
+    text-align: left;
+}
+.footer-section a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+.future .title{
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.future .description{
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.future .icon-section{
+    margin-top: 30px;
+}
+
+.subscribe .title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+.subscribe input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 60px 18px 20px;
+    border: #FFFFFF solid 1px;
+    background:#151414;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.subscribe .sub-btn{
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    background: #005FAC;
+}
+
 /* footer section end */
+
